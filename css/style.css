@@ -40,18 +40,20 @@ section > h1{
 	color:#FFF;
 	position:sticky;
 	top:-1px;
+	border-radius: 7px 7px 0px 0px;
 }
 
 
 
 article{
-	padding:10px;
+	padding:0px;
 	width:45%;
 	min-width:200px;
 	display:inline-block;
 	margin:10px auto;
 	border: 1px solid #F0F0F0;
 	background-color:#F8F8F8;
+	border-radius: 7px 7px 0px 0px;
 }
 
 article > h1{
@@ -61,12 +63,15 @@ article > h1{
 	position:sticky;
 	top:-1px;
 	height:60px;
+	margin-top:0px;
+	border-radius: 7px 7px 0px 0px;
 }
 
 article > p {
 	text-align: justify;
 	height:280px;
 	overflow:auto;
+	padding:10px;
 }
 
 article > div {
@@ -76,6 +81,7 @@ article > div {
 	margin-top:20px;
 	margin-bottom:20px;
 	line-height: 25px;
+	padding:10px;
 }
 
 article > footer{
@@ -100,11 +106,6 @@ article label {
 article img {
 	max-height:200px;
 	max-width:100%;
-}
-
-figure{
-	height:220px;
-	text-align:center;
 }
 
 article:hover{
@@ -135,6 +136,15 @@ header > h1 {
 	margin-right:20px;
 	color:#FFF;
 	text-shadow: 5px 5px 10px #000;
+}
+
+figure{
+	height:220px;
+	text-align:center;
+}
+
+figure > img{
+	border-radius:33%;
 }
 
 figcaption {
@@ -196,6 +206,10 @@ figcaption {
 	background-color: #DADAF7;
 	border:1px solid #EEE;
     font-size: 14px;
+	height: 28px;
+	display: table-cell; 
+	vertical-align: middle; 
+	width:200px;
 }
 
 .sub-menu:hover, .main-menu:hover{
@@ -205,5 +219,6 @@ figcaption {
 .sub-menu::after{
 	content:"⇨";
 	float:right;
+	
 }
 
