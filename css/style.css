@@ -60,7 +60,7 @@ article > h1{
 	border:1px solid #DDD;
 	padding:10px 6px;
 	background-color: #DADAF7;
-	position:sticky;
+	position:relative;
 	top:-1px;
 	height:60px;
 	margin-top:0px;
@@ -85,8 +85,12 @@ article > div {
 }
 
 article > footer{
-	font-size:1.3em;
+	font-size:1.2em;
 	height:90px;
+}
+article > footer > a{
+	display:block;
+	height:50px;
 }
 
 article a:link{
@@ -144,7 +148,7 @@ figure{
 }
 
 figure > img{
-	border-radius:33%;
+	border-radius:7px;
 }
 
 figcaption {
