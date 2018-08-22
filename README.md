@@ -8,4 +8,4 @@ Midterm HTML/CSS Project
 
 ## Preview HTML Demo project
 
-[Github Page Demo](https://fraigo.github.io/midterm01/)
+[Github Page Demo](https://iswdev.github.io/midterm01/)
